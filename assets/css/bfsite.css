@@ -1,0 +1,11 @@
+a {
+  transition: all .2s ease-in-out;
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: var(--bs-link-hover-color);
+}
+
